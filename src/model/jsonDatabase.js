@@ -117,11 +117,6 @@ const modelController = function (name) {
         }
 
 
-
-       
-
-
-
     }
 }
 

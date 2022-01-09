@@ -7,6 +7,7 @@ let validacion = require("../middleware/validatorUsers")
 
 router.get('/login', userController.login)
 router.get('/register', userController.register)
-router.post('/register',upload.single("image"),validacion,userController.processRegister)
+router.post('/register',upload.single("image"),validacion,userController.processRegister);
+
 
 module.exports = router;

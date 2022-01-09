@@ -1,8 +1,23 @@
 [
-    {
-        "id" : 1,
-        "email" : "admin@gmail.com",
-        "password" : ""
-
-    }
+ {
+  "id": 5,
+  "autor": "Atsushi Ōkubo   ",
+  "nombre": "Fire Force ",
+  "categoria": "",
+  "precio": "600  ",
+  "descripcion": "",
+  "estado": "En Curso",
+  "img": "fireforce.jpg"
+ },
+ {
+  "apellido": "fulguera",
+  "email": "arthurdensek@gmail.com",
+  "telefono": "01150420942",
+  "password": "123456789",
+  "genero": "on",
+  "categoria": "usuario ",
+  "confirmarPassword": "123456789",
+  "avatar": "imgProduct_1641729311255hola.jpg",
+  "id": 6
+ }
 ]
