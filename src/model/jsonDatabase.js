@@ -103,10 +103,10 @@ const modelController = function (name) {
 
         },
 
-        findFirstByField: function(text){
+        findByField: function(field,text){
             let rows = this.all();
     
-            let elementFound = rows.find(element => element.id == text);
+            let elementFound = rows.find(element => element[field] == text);
             return elementFound;
         },
 

@@ -7,12 +7,16 @@
           <li><a href="#">Libros</a></li>
           <li><a href="#">Merchandising</a></li>
         </ul>
-
-        <ul class="logeo-menu">
+        <% if (locals.isLogged) { %>
+            <a href="/users/logout">Cerrar Sesion</a>
+        <% }else{ %>
+          <ul class="logeo-menu">
             <li><a href="/users/register">Creá tu cuenta</a></li>
             <li><a href="/users/login">Inicia sesión</a></li>
-         
+        
         </ul>
+          
+        <% } %>
       </nav>
       <div class="menu">
         <i class="fa fa-bars burger"></i>

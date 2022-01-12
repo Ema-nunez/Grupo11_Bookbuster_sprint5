@@ -2,7 +2,15 @@ const express = require("express");
 const path = require('path');
 const app = express();
 const methodOverride =  require('method-override'); 
+const session = require('express-session');
+const userLoggedMiddleware = require('./src/middleware/userLoggedMiddleware')
+app.use(session({
+  secret : "It's a secret",
+  resave : false,
+  saveUninitialized : false
+}))
 
+app.use(userLoggedMiddleware);
 app.use(express.static(__dirname +'/public'));
 
 app.set('views', path.resolve(__dirname, './src/views'));  

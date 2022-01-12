@@ -19,5 +19,17 @@
   "confirmarPassword": "123456789",
   "avatar": "imgProduct_1641729311255hola.jpg",
   "id": 6
+ },
+ {
+  "nombre": "Emanuel",
+  "apellido": "Nuñez",
+  "email": "jhonatanchipana4@gmail.com",
+  "telefono": "0111522521229",
+  "password": "$2b$10$yWETbFrUWduiGOm1ZsL/quMcZVc5C22CZhpNW.JwBqEekDglIbYVO",
+  "genero": "on",
+  "categoria": "administrador ",
+  "confirmarPassword": "ema12345",
+  "avatar": "imgProduct_1641946185983hola.jpg",
+  "id": 7
  }
 ]
