@@ -31,5 +31,17 @@
   "confirmarPassword": "ema12345",
   "avatar": "imgProduct_1641946185983hola.jpg",
   "id": 7
+ },
+ {
+  "nombre": "Matias",
+  "apellido": "Aguirre",
+  "email": "matiasezeaguirre@gmail.com",
+  "telefono": "1122755441",
+  "password": "$2b$10$itRZwphSTmMCD2oaES0TqOUvYAWr/SaiE4Oen4uiJl/hE7HyHsxrC",
+  "genero": "on",
+  "categoria": "usuario ",
+  "confirmarPassword": "matiasaguirre",
+  "avatar": "imgProduct_1642023942285hola.jpg",
+  "id": 8
  }
 ]
