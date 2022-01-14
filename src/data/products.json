@@ -113,5 +113,23 @@
   "descripcion": "",
   "estado": "Finalizado",
   "img": "imgProduct_1640254475272hola.jpg"
+ },
+ {
+  "autor": "Akira Toriyama",
+  "nombre": "Dragon Ball Super",
+  "precio": "100",
+  "descripcion": "",
+  "estado": "En Curso",
+  "img": "imgProduct_1642122578388hola.jpg",
+  "id": 16
+ },
+ {
+  "autor": "Eiichirō Oda",
+  "nombre": "One Piece",
+  "precio": "100",
+  "descripcion": "",
+  "estado": "Finalizado",
+  "img": "imgProduct_1642123105346hola.jpg",
+  "id": 17
  }
 ]
