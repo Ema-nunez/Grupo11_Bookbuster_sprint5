@@ -74,6 +74,7 @@ const userController = {
             confirmarPassword : req.body.confirmarPassword,
             avatar : req.file.filename
         }
+        newUsuario.categoria.trim()
         usersModel.create(newUsuario)
         res.redirect("/")
     }

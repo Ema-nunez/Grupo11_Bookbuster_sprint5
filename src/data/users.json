@@ -43,5 +43,17 @@
   "confirmarPassword": "matiasaguirre",
   "avatar": "imgProduct_1642023942285hola.jpg",
   "id": 8
+ },
+ {
+  "nombre": "user",
+  "apellido": "",
+  "email": "user@gmail.com",
+  "telefono": "423423423442",
+  "password": "$2b$10$oSnFC9D0PlblOkZoIv16L.VJbirjY3X6106X9PJ7lw8pXk1RJxS1e",
+  "genero": "on",
+  "categoria": "usuario ",
+  "confirmarPassword": "user12345",
+  "avatar": "imgProduct_1642119563719hola.jpg",
+  "id": 9
  }
 ]
