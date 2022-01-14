@@ -3,6 +3,7 @@ function userLoggedMiddleware(req,res,next){
     if(req.session && req.session.userLoged){
         
         res.locals.isLogged = true;
+        res.locals.userLoged = req.session.userLoged
     }
     next();
 }

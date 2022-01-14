@@ -8,6 +8,7 @@
           <li><a href="#">Merchandising</a></li>
         </ul>
         <% if (locals.isLogged) { %>
+            <p><%= locals.userLoged.nombre %></p> 
             <a href="/users/logout">Cerrar Sesion</a>
         <% }else{ %>
           <ul class="logeo-menu">

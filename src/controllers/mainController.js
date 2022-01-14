@@ -5,7 +5,8 @@ const mainController = {
 
         const finalizados = productModel.findAllByField("Finalizado")
         const enEmision = productModel.findAllByField("En Curso")
-        res.render('products/index', {finalizados, enEmision})
+        const user = req.session.userLogged
+        res.render('products/index', {finalizados, enEmision, user})
     }
 }
 

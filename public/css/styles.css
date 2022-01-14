@@ -399,7 +399,7 @@ main section.Productos-relacionados article{
 main section.Productos-relacionados article:hover img{
     opacity: 0.5;
 }
-main img{
+.index-img img{
     height: 350px;
     width: 240px;
 }
