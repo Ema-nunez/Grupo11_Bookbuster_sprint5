@@ -79,13 +79,13 @@
   "id": 11
  },
  {
-  "autor": "Kishimoto",
-  "nombre": "Boku no hero",
-  "precio": "650",
-  "descripcion": "Un chico sin poderes obtiene poderes",
+  "id": 12,
+  "autor": "Kishimoto  ",
+  "nombre": "Boku no hero  ",
+  "precio": "0",
+  "descripcion": "",
   "estado": "Finalizado",
-  "img": "imgProduct_1640253600574hola.jpg",
-  "id": 12
+  "img": "imgProduct_1640253600574hola.jpg"
  },
  {
   "autor": "Kishimoto",
@@ -126,10 +126,10 @@
  },
  {
   "id": 17,
-  "autor": "Kishimoto ",
-  "nombre": " Evangelion",
+  "autor": "Kishimoto  ",
+  "nombre": " Evangelion ",
   "categoria": "Manga",
-  "precio": "500 ",
+  "precio": "50",
   "descripcion": "",
   "estado": "En Curso",
   "img": "imgProduct_1642124488324hola.jpg"
