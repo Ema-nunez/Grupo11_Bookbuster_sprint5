@@ -55,5 +55,16 @@
   "confirmarPassword": "user12345",
   "avatar": "imgProduct_1642119563719hola.jpg",
   "id": 9
+ },
+ {
+  "nombre": "Emanuel",
+  "apellido": "",
+  "email": "ema@gmail.com",
+  "telefono": "1231231",
+  "password": "$2b$10$WhFR4V8aTGa4xTx7UJovYOVV/Hs6Ce0o4afzZ0UcT4/WmDYV6FtBK",
+  "categoria": "usuario ",
+  "confirmarPassword": "ema12345",
+  "avatar": "imgProduct_1642300679348hola.png",
+  "id": 10
  }
 ]

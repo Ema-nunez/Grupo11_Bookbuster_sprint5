@@ -35,7 +35,7 @@ const modelController = function (name) {
         // Busco por id
         find: function (id) {
             let rows = this.readFile();
-            console.log(" --- por el find")
+            
             return rows.find(i => i.id == id);
         },
 

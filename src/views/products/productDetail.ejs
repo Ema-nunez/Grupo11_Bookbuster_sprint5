@@ -38,15 +38,16 @@
             <i class="fas fa-shopping-cart"></i>
         </div>
         <% if (locals.userLoged) { %>
-            <% if (locals.userLoged.categoria = "administrador ") { %>
+            <% if (locals.userLoged.categoria == "administrador ") { %>
                 <div class="boton-delate">
                     <a href="/products/edit/<%= productDetail.id %> " class="action-button-edit">EDITAR PRODUCTO</a>
                             <form action="/products/delete/<%= productDetail.id %>" method="POST" style="display: inline-flex">
                                 <button type="submit" class="action-button-delete">ELIMINAR</button>
                             </form>
                     </div>
+            <% }else{ %>
+                
             <% } %>
-            
         <% } %>
         
 
@@ -97,7 +98,7 @@
     </div>
     </section>
 
-    <main>
+    <main class="index-img">
         <h2>PRODUCTOS RELACIONADOS</h2>
         <section class="Productos-relacionados">
             
