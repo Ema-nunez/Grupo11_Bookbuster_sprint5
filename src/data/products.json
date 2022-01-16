@@ -108,10 +108,10 @@
  },
  {
   "id": 15,
-  "autor": "Stan Lee ",
-  "nombre": "Spiderman ",
+  "autor": "Stan Lee  ",
+  "nombre": "Spiderman  ",
   "categoria": "Comic",
-  "precio": "10000000 ",
+  "precio": "100",
   "descripcion": "",
   "estado": "Finalizado",
   "img": "imgProduct_1640254475272hola.jpg"
