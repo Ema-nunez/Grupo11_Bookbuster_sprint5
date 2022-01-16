@@ -21,11 +21,11 @@
  },
  {
   "id": 6,
-  "autor": "Atsushi Ōkubo ",
-  "nombre": "Soul Eater 01 ",
+  "autor": "Atsushi Ōkubo  ",
+  "nombre": "Soul Eater 01  ",
   "categoria": "",
-  "precio": "1000",
-  "descripcion": "Finalizado",
+  "precio": "100",
+  "descripcion": "",
   "estado": "En Curso",
   "img": "Soul_Eater.jpg"
  },
@@ -127,10 +127,10 @@
  },
  {
   "id": 17,
-  "autor": "Kishimoto  ",
-  "nombre": " Evangelion ",
+  "autor": "Kishimoto   ",
+  "nombre": " Evangelion  ",
   "categoria": "Manga",
-  "precio": "50",
+  "precio": "500",
   "descripcion": "",
   "estado": "En Curso",
   "img": "imgProduct_1642124488324hola.jpg"
