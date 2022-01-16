@@ -34,7 +34,7 @@ section.top-header{
     flex-wrap: wrap;
     align-items: center;
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     box-sizing: border-box;
 }
 .logo{
@@ -43,8 +43,8 @@ section.top-header{
 }
 
 .logo img{
-    width: 45px;
-    height: 45px;
+    width: 80px;
+    height: 80px;
     max-width: 250px;
     
 }
@@ -96,6 +96,9 @@ section.top-header{
     border-radius: 10px;
     
 }
+.carrito a i:hover{
+    color:#6a33f5;
+}
 
 
 .barra-busqueda{
@@ -120,13 +123,26 @@ section.top-header{
     background: var(--BgColor-btn) ;
     position: relative;
     border-radius: 10px;
-    padding: 5px 11px;
+    padding: 7px 11px;
     font-size: 20px;
     height: 40px;
     color:var(--Color-btn);
 }
 
+.nameuser{
+    color:#6a33f5;
+    font-size: 1.1em;
+}
 
+.session-out{
+    text-decoration: none;
+    color: #170312;
+    
+}
+
+.session-out:hover{
+    color:orangered;
+}
 /*Historial de Menu*/
 div.historial-menu{
     margin:25px 0px;
@@ -770,9 +786,11 @@ section.copyright p{
 
 /******SLIDER*******/
 .slider{
-    width: 100%;
+    width: 95%;
     height: 15rem;
     overflow: hidden;
+    margin: auto;
+    margin-top: 10px;
 }
 .slider ul{
     display: flex;
@@ -1173,6 +1191,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
     .logo{
         order: -1;
+
     }
     .menu{
         display: none;
@@ -1185,10 +1204,26 @@ input[type="number"]::-webkit-outer-spin-button {
         width: 60%;
         justify-content: space-between;
     }
+    .opciones-menu li a{
+        color :#170312;
     
+    }
+
+    .opciones-menu li a:hover{
+        color:#4d08fa;
+    }
     .logeo-menu{
         width: 30%;
         justify-content: space-between;
+    }
+
+  
+    .logeo-menu li a{
+        color: #170312;
+    }
+
+    .logeo-menu li a:hover,a:active{
+        color:#4d08fa
     }
 
     /* Estilos del login para tablet */

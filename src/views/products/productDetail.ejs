@@ -37,12 +37,18 @@
             <input type="submit" class="btn2" value="Agregar carrito">
             <i class="fas fa-shopping-cart"></i>
         </div>
-        <div class="boton-delate">
-            <a href="/products/edit/<%= productDetail.id %> " class="action-button-edit">EDITAR PRODUCTO</a>
-                    <form action="/products/delete/<%= productDetail.id %>" method="POST" style="display: inline-flex">
-                        <button type="submit" class="action-button-delete">ELIMINAR</button>
-                    </form>
-            </div>
+        <% if (locals.userLoged) { %>
+            <% if (locals.userLoged.categoria = "administrador ") { %>
+                <div class="boton-delate">
+                    <a href="/products/edit/<%= productDetail.id %> " class="action-button-edit">EDITAR PRODUCTO</a>
+                            <form action="/products/delete/<%= productDetail.id %>" method="POST" style="display: inline-flex">
+                                <button type="submit" class="action-button-delete">ELIMINAR</button>
+                            </form>
+                    </div>
+            <% } %>
+            
+        <% } %>
+        
 
         
 

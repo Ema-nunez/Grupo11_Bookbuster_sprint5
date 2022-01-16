@@ -8,8 +8,8 @@
           <li><a href="#">Merchandising</a></li>
         </ul>
         <% if (locals.isLogged) { %>
-            <p><%= locals.userLoged.nombre %></p> 
-            <a href="/users/logout">Cerrar Sesion</a>
+            <p class="nameuser"><%= locals.userLoged.nombre %></p> 
+            <a class="session-out" href="/users/logout">Cerrar Sesion</a>
         <% }else{ %>
           <ul class="logeo-menu">
             <li><a href="/users/register">Creá tu cuenta</a></li>
@@ -24,9 +24,9 @@
       </div>
       <div class="logo">
         <a href="/"
-          ><img src="/images/dia-mundial-del-libro.png" alt="Logo"
+          ><img src="/images/BookBuster-Logo.svg" alt="Logo"
         /></a>
-        <p>BookBuster</p>
+        
       </div>
       <div class="carrito">
         <a href="/products/cart"><i class="fas fa-shopping-cart"></i></a>

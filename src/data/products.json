@@ -60,13 +60,14 @@
   "img": "productoOferta4.jpg"
  },
  {
-  "autor": "Kishimoto",
-  "nombre": "Naruto",
-  "precio": "450",
+  "id": 10,
+  "autor": "Kishimoto ",
+  "nombre": "Naruto ",
+  "categoria": "Manga",
+  "precio": "450 ",
   "descripcion": "",
   "estado": "Finalizado",
-  "img": "imgProduct_1640253435148hola.jpg",
-  "id": 10
+  "img": "imgProduct_1640253435148hola.jpg"
  },
  {
   "autor": "",
@@ -113,5 +114,24 @@
   "descripcion": "",
   "estado": "Finalizado",
   "img": "imgProduct_1640254475272hola.jpg"
+ },
+ {
+  "autor": "Kishimoto",
+  "nombre": "Nagatoro",
+  "precio": "600",
+  "descripcion": "asdasdasd",
+  "estado": "En Curso",
+  "img": "imgProduct_1642123750244hola.png",
+  "id": 16
+ },
+ {
+  "id": 17,
+  "autor": "Kishimoto ",
+  "nombre": " Evangelion",
+  "categoria": "Manga",
+  "precio": "500 ",
+  "descripcion": "",
+  "estado": "En Curso",
+  "img": "imgProduct_1642124488324hola.jpg"
  }
 ]
