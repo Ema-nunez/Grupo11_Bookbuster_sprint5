@@ -1,11 +1,10 @@
 # Grupo11_Bookbuster_Sprint
 
 # Comenzar a hacer:  😁
-- Debemos coordinar encuentros por zoom diarios para poder mantener una idea de como se encuentran las tareas que cada uno debe realizar.
+- Aprovechar los encuentros para poder mantener una idea de como se encuentran las tareas que cada uno debe realizar.
 
 # Hacer más: 😎
-- Organizarnos mejor, comunicarnos y planificar mejor las cosas.
-- Usar más Trello para organizarnos.
+- Subdividir las consignas en tareas mas pequeñas y organizarlas en trello
 - Tambien hacer mas versionados de nuestras tareas en github
 
 # Continuar haciendo: 🦾
