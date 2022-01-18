@@ -23,7 +23,7 @@ const userController = {
         delete userToLogin.confirmarPassword;
         req.session.userLoged = userToLogin;
         if (req.body.recordarme) {
-          res.cookie("userEmail", req.body.email, { maxAge: 1000 * 60 * 3 });
+          res.cookie("userEmail", req.body.email, { maxAge: (1000 * 60 ) * 10 });
         }
 
         return res.redirect("/");
@@ -70,8 +70,7 @@ const userController = {
       apellido: req.body.lastName,
       email: req.body.email,
       telefono: req.body.telefono,
-      password: bcrypt.hashSync(req.body.password, 10),
-      genero: req.body.genero,
+      password: bcrypt.hashSync(req.body.password, 10),    
       categoria: req.body.persona,
       confirmarPassword: req.body.confirmarPassword,
       avatar: req.file.filename,

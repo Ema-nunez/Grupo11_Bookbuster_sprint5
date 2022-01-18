@@ -134,5 +134,50 @@
   "descripcion": "",
   "estado": "En Curso",
   "img": "imgProduct_1642124488324hola.jpg"
+ },
+ {
+  "autor": "Ino Asano",
+  "nombre": "Oyasumi Pun Pun",
+  "precio": "800",
+  "descripcion": "",
+  "estado": "En Curso",
+  "img": "imgProduct_1642509006454hola.jpg",
+  "id": 18
+ },
+ {
+  "autor": "Eiichirō Oda",
+  "nombre": "One Piece",
+  "precio": "650",
+  "descripcion": "",
+  "estado": "Finalizado",
+  "img": "imgProduct_1642509515498hola.jpg",
+  "id": 19
+ },
+ {
+  "autor": "Haruichi Furudate",
+  "nombre": "Haikyuu!",
+  "precio": "500",
+  "descripcion": "",
+  "estado": "En Curso",
+  "img": "imgProduct_1642509574529hola.jpg",
+  "id": 20
+ },
+ {
+  "autor": "Tatsuki Fujimoto",
+  "nombre": "Chainsaw Man",
+  "precio": "700",
+  "descripcion": "",
+  "estado": "Finalizado",
+  "img": "imgProduct_1642509633612hola.png",
+  "id": 21
+ },
+ {
+  "autor": "Tadatoshi Fujimaki",
+  "nombre": "Kuroko no Basket",
+  "precio": "550",
+  "descripcion": "",
+  "estado": "Finalizado",
+  "img": "imgProduct_1642509770354hola.jpg",
+  "id": 22
  }
 ]
