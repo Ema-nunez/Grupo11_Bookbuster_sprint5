@@ -61,22 +61,22 @@
  },
  {
   "id": 10,
-  "autor": "Kishimoto ",
-  "nombre": "Naruto ",
+  "autor": "Kishimoto  ",
+  "nombre": "Naruto  ",
   "categoria": "Manga",
-  "precio": "450 ",
+  "precio": "650  ",
   "descripcion": "",
   "estado": "Finalizado",
   "img": "imgProduct_1640253435148hola.jpg"
  },
  {
-  "autor": "",
-  "nombre": "Tokyo Ghoul",
-  "precio": "500",
+  "id": 11,
+  "autor": " ",
+  "nombre": "Tokyo Ghoul ",
+  "precio": "550 ",
   "descripcion": "",
   "estado": "Finalizado",
-  "img": "imgProduct_1640253506350hola.jpg",
-  "id": 11
+  "img": "imgProduct_1640253506350hola.jpg"
  },
  {
   "id": 12,
