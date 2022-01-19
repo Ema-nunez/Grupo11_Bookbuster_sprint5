@@ -179,5 +179,15 @@
   "estado": "Finalizado",
   "img": "imgProduct_1642509770354hola.jpg",
   "id": 22
+ },
+ {
+  "id": 23,
+  "autor": "Tsugumi Ōba ",
+  "nombre": "Death Note ",
+  "categoria": "Manga",
+  "precio": "550 ",
+  "descripcion": "",
+  "estado": "Finalizado",
+  "img": "imgProduct_1642551636710hola.jpg"
  }
 ]
