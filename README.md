@@ -5,7 +5,7 @@ Email/usuario: jhonatanchipana4@gmail.com
 Password : ema12345
 
 Usuario comun: 
-Email/password: matiasezeaguirre@gmail.com
+Email/usuario: matiasezeaguirre@gmail.com
 Password : matiasaguirre
 
 
