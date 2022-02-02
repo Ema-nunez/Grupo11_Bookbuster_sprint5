@@ -53,7 +53,7 @@ section.top-header{
     display: none;
     width: 80%;
     justify-content: space-between;
-    
+    align-items: center;
 
 }
 .opciones-menu, .logeo-menu{
@@ -80,6 +80,17 @@ section.top-header{
     justify-content: flex-end;
     margin-left: 70px;
 }
+
+.estilos-login {
+    padding: 10px;
+    background-color: white;
+}
+
+.estilos-register {
+    padding: 10px;
+    border: 1px solid black;
+}
+
 .menu{
     background-color: var(--BgColor-menuHamburguesa-carrito);
     font-size: 25px;
