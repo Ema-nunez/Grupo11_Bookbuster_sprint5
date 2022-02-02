@@ -397,13 +397,20 @@ main h2{
     font-weight:400;
 
 }
-main section.Productos-relacionados{
+
+.contenedor-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+/* main section.Productos-relacionados{
     display: flex;
     justify-content: space-between;
     align-items:center;
     flex-wrap: wrap;
 
-}
+} */
 main section.Productos-relacionados article{
     outline: none;
     margin: 20px 5px;
