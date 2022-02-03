@@ -6,7 +6,7 @@
     --Color-menuHamburguesa-carrito: #3a3846;
     --BgColor-btn: #18a999;
     --Color-btn: #F4F6F6;
-    --BgColor-footer: #ecebe4;
+    --BgColor-footer: linear-gradient(180deg, #18a999 12.55%, #FFFFFF 80%);
     --footer-h2: #170312;
     --botones-redesSociales: #18A999;
 }
@@ -619,7 +619,7 @@ footer p{
     margin-right: 5px;  
 }
 section.copyright{
-    background: #ecebe4;
+    background: white;
     padding: 5px;
     width: 100%;
 }
