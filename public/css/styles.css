@@ -574,22 +574,24 @@ footer p{
 }
 .sci li a{
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    padding: 0.8rem;
     background: var(--botones-redesSociales);
+    color:#f6f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
+    margin-right: 2rem;
     text-decoration: none;
-    border-radius: 5px;
-}
-.sci li a:hover{
-    background: #2c5364;
-}
-.sci li a i{
-    color:#F4F6F6;
+    border-radius: 10px;
+    transition: .5s;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.7)) drop-shadow(-3px -3px 5px rgba(255, 255, 255, 0.86));
     font-size: 20px;
+}
+
+.sci li a:hover{
+    background: #f6f4f4;
+    color: var(--botones-redesSociales);
+    border-radius: 50%;
 }
 .Mas-Info{
     
