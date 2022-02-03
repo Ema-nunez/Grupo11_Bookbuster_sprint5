@@ -85,17 +85,43 @@ section.top-header{
     padding: 10px;
     background-color: white;
     box-shadow: inset 0 0 0 0 red;
-    transition: ease-out 0.3s;
+    transition: ease-out 0.5s;
 }
 
 .estilos-login:hover {
-    box-shadow: inset 200px 0 0 0 red;
+    box-shadow: inset 300px 0 0 0 red;
     color: white;
 }
 
 .estilos-register {
     padding: 10px;
     border: 1px solid black;
+    transition: ease-out 0.4s;
+    position: relative;
+    z-index: 1;
+}
+.estilos-register:hover {
+    color: white;
+}
+
+.estilos-register:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    content: "";
+    background-color: red;
+}
+
+.estilos-register:hover:before {
+    transition: 0.2s all ease;
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
 }
 
 
