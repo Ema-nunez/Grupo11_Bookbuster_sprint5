@@ -638,7 +638,7 @@ section.copyright p{
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .login-info-container{
@@ -647,7 +647,10 @@ section.copyright p{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
+    box-shadow: 6px 5px 11px 2px rgb(0 0 0 / 25%);
+    border-radius: 10px 130px;
+    padding: 2rem 0.5rem;
+    background-color: aquamarine;
 }
 
 .image-container{
@@ -1356,9 +1359,9 @@ input[type="number"]::-webkit-outer-spin-button {
         padding: 10px 4%;
     }
 
-    .main-login{
+    /* .main-login{
         padding: 0px 100px;
-    }
+    } */
 
     .detallesDelProd{
         display:flex;
@@ -1391,10 +1394,10 @@ input[type="number"]::-webkit-outer-spin-button {
         display: block;
         width: 50%;
     }
-    .login-container{
+    /* .login-container{
         width: 100%;
         height: 500px;
-    }
+    } */
     .login-info-container{
         width: 50%;
     }
